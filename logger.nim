@@ -107,7 +107,7 @@ proc rotateLogFile(): bool =
     rotate_at_size = logSize.size * 1024
   elif(logSize.unit == TLogSizeUnit.MegaByte):
     rotate_at_size = logSize.size * 1024 * 1024
-  elif(logSize.unit == TlogSizeUnit.GigaByte):
+  elif(logSize.unit == TLogSizeUnit.GigaByte):
     rotate_at_size = logSize.size * 1024 * 1024 * 1024
 
   if(file_size >= rotate_at_size):

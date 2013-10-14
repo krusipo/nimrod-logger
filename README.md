@@ -1,20 +1,3 @@
--   [Imports](#6)
-
--   [Types](#7)
-    -   [TLogSizeUnit](#101)
-    -   [TLevel](#102)
-
--   [Procs](#12)
-    -   [inDeveloperMode](#103)
-    -   [getLogMessageString](#104)
-    -   [setLogDirectory](#105)
-    -   [setLogFileExtension](#106)
-    -   [setFileName](#107)
-    -   [setDeveloperMode](#108)
-    -   [setLogSize](#109)
-    -   [setMaxLogFiles](#110)
-    -   [log](#111)
-
 The logger module provides an interface to manage message logging for
 rotated logfiles. Messages can be outputed at different levels. Aspects
 of logs such as location, name and when to rotate logfiles are possible
@@ -79,4 +62,4 @@ Set maximum allowed logfiles to rotate between
 Write message of appropriate level to file. When fatal raise E\_Base.
 When mode of logging operation are developer output message to terminal.
 
-Generated: 2013-10-14 14:38:22 UTC
+Generated: 2013-10-14 18:56:03 UTC
